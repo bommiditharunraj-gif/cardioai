@@ -1,0 +1,63 @@
+=========================================
+      CARDIOAI - TESTING PARAMETERS
+=========================================
+
+Use these values in the "My Health Check" form to verify the risk classification logic.
+
+-----------------------------------------
+🔴 HIGH RISK PROFILE (Acute Markers)
+-----------------------------------------
+• Age: 67
+• Biological Sex: Male (1)
+• Chest Pain: Typical Angina (0)
+• Resting Blood Pressure: 165
+• Cholesterol: 290
+• Blood Sugar Level: > 120 (1)
+• ECG Test Result: Hypertrophy (2)
+• Max Heart Rate: 105
+• Exercise Angina: Yes (1)
+• ST Depression: 3.2
+• ST Segment Pattern: Abnormal Pattern (2)
+• Blocked Vessels (CA): 3
+• Thalassemia: Variable Abnormality (3)
+
+-----------------------------------------
+🟡 MEDIUM RISK PROFILE (Warning Markers)
+-----------------------------------------
+• Age: 52
+• Biological Sex: Male (1)
+• Chest Pain: Atypical Angina (1)
+• Resting Blood Pressure: 145
+• Cholesterol: 245
+• Blood Sugar Level: Normal (0)
+• ECG Test Result: Wave Abnormality (1)
+• Max Heart Rate: 135
+• Exercise Angina: No (0)
+• ST Depression: 1.2
+• ST Segment Pattern: Flat Pattern (1)
+• Blocked Vessels (CA): 1
+• Thalassemia: Fixed Abnormality (2)
+
+-----------------------------------------
+🟢 LOW RISK PROFILE (Optimal Vitals)
+-----------------------------------------
+• Age: 28
+• Biological Sex: Female (0)
+• Chest Pain: Asymptomatic (3)
+• Resting Blood Pressure: 115
+• Cholesterol: 185
+• Blood Sugar Level: Normal (0)
+• ECG Test Result: Normal (0)
+• Max Heart Rate: 178
+• Exercise Angina: No (0)
+• ST Depression: 0.0
+• ST Segment Pattern: Normal Pattern (0)
+• Blocked Vessels (CA): 0
+• Thalassemia: Normal (1)
+
+=========================================
+Note: Clinical safety-net flags are now 
+active. Values exceeding 165 mmHg BP or 
+300 mg/dl Cholesterol will trigger High 
+Risk regardless of AI prediction.
+=========================================

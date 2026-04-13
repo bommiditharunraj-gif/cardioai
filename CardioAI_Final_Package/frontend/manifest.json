@@ -1,0 +1,17 @@
+{
+  "name": "CardioAI - Professional Health Management",
+  "short_name": "CardioAI",
+  "description": "Advanced heart disease risk assessment and clinical monitoring platform.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070a",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "heart-disease-frontend",
+    "version": "1.0.0",
+    "description": "CardioAI - Advanced Heart Health Platform",
+    "main": "index.html",
+    "scripts": {
+        "dev": "vite --host",
+        "build": "vite build",
+        "preview": "vite preview",
+        "android:build": "vite build && npx cap sync android",
+        "android:open": "npx cap open android",
+        "android:run": "npx cap run android"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@capacitor/android": "^8.3.0",
+        "@capacitor/cli": "^7.6.1",
+        "@capacitor/core": "^8.3.0"
+    }
+}

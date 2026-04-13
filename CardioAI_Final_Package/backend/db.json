@@ -1,0 +1,1283 @@
+{
+    "users": [
+        {
+            "username": "patient",
+            "password": "password123",
+            "full_name": "Prasanna",
+            "settings": {
+                "darkMode": true,
+                "alerts": true
+            }
+        },
+        {
+            "username": "Prasanna",
+            "password": "Abc",
+            "full_name": "Prasanna",
+            "phone": "8767890879",
+            "settings": {
+                "darkMode": true,
+                "alerts": true
+            }
+        },
+        {
+            "username": "tharun_b",
+            "password": "qazxcv",
+            "full_name": "tharun raj",
+            "phone": "7894561230",
+            "settings": {
+                "darkMode": true,
+                "alerts": true
+            }
+        }
+    ],
+    "lab_reports": [
+        {
+            "id": "20260104152512",
+            "date": "2026-01-04",
+            "type": "Cholesterol",
+            "result": "195 mg/dl",
+            "notes": ""
+        },
+        {
+            "id": "20260104160017",
+            "date": "2025-12-31",
+            "type": "Blood Work",
+            "result": "195 mg/dl",
+            "notes": ""
+        },
+        {
+            "id": "20260118104552",
+            "date": "2026-01-18",
+            "type": "ECG",
+            "result": "N",
+            "notes": ""
+        },
+        {
+            "id": "20260118104729",
+            "date": "2026-01-01",
+            "type": "Cholesterol",
+            "result": "100",
+            "notes": ""
+        }
+    ],
+    "assessments": [
+        {
+            "id": "20260104145951",
+            "date": "2026-01-04T14:59:51.800697",
+            "inputs": {
+                "age": 23,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 150,
+                "exang": 1,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 88.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Low risk profile. Preventive maintenance strategy suggested.",
+                    "recommendations": [
+                        "Incorporate zone-2 aerobic training to improve cardiac efficiency.",
+                        "Significant markers in major vessels require a specialized cardiology consult.",
+                        "Maintain a consistent 7-9 hours of restorative sleep."
+                    ],
+                    "diet": [
+                        "Ensure adequate magnesium and potassium intake for heart rhythm stability.",
+                        "High-antioxidant diet (berries, dark leafy greens) to support vascular health."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260104145954",
+            "date": "2026-01-04T14:59:54.519563",
+            "inputs": {
+                "age": 23,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 150,
+                "exang": 1,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 88.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Low risk profile. Preventive maintenance strategy suggested.",
+                    "recommendations": [
+                        "Incorporate zone-2 aerobic training to improve cardiac efficiency.",
+                        "Significant markers in major vessels require a specialized cardiology consult.",
+                        "Maintain a consistent 7-9 hours of restorative sleep."
+                    ],
+                    "diet": [
+                        "Ensure adequate magnesium and potassium intake for heart rhythm stability.",
+                        "High-antioxidant diet (berries, dark leafy greens) to support vascular health."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260104150001",
+            "date": "2026-01-04T15:00:01.015452",
+            "inputs": {
+                "age": 23,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 150,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 92.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Low risk profile. Preventive maintenance strategy suggested.",
+                    "recommendations": [
+                        "Incorporate zone-2 aerobic training to improve cardiac efficiency.",
+                        "Significant markers in major vessels require a specialized cardiology consult.",
+                        "Maintain a consistent 7-9 hours of restorative sleep."
+                    ],
+                    "diet": [
+                        "Ensure adequate magnesium and potassium intake for heart rhythm stability.",
+                        "High-antioxidant diet (berries, dark leafy greens) to support vascular health."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260104150012",
+            "date": "2026-01-04T15:00:12.416362",
+            "inputs": {
+                "age": 23,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 330,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 150,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 76.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Low risk profile. Preventive maintenance strategy suggested.",
+                    "recommendations": [
+                        "Incorporate zone-2 aerobic training to improve cardiac efficiency.",
+                        "Significant markers in major vessels require a specialized cardiology consult.",
+                        "Maintain a consistent 7-9 hours of restorative sleep."
+                    ],
+                    "diet": [
+                        "Ensure adequate magnesium and potassium intake for heart rhythm stability.",
+                        "High-antioxidant diet (berries, dark leafy greens) to support vascular health."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260104153626",
+            "date": "2026-01-04T15:36:26.934945",
+            "inputs": {
+                "age": 23,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 330,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 150,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 76.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Low risk profile. Preventive maintenance strategy suggested.",
+                    "recommendations": [
+                        "Incorporate zone-2 aerobic training to improve cardiac efficiency.",
+                        "Significant markers in major vessels require a specialized cardiology consult.",
+                        "Maintain a consistent 7-9 hours of restorative sleep."
+                    ],
+                    "diet": [
+                        "Ensure adequate magnesium and potassium intake for heart rhythm stability.",
+                        "High-antioxidant diet (berries, dark leafy greens) to support vascular health."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260104155938",
+            "date": "2026-01-04T15:59:38.852081",
+            "inputs": {
+                "age": 34,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 150,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 92.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Low risk profile. Preventive maintenance strategy suggested.",
+                    "recommendations": [
+                        "Incorporate zone-2 aerobic training to improve cardiac efficiency.",
+                        "Significant markers in major vessels require a specialized cardiology consult.",
+                        "Maintain a consistent 7-9 hours of restorative sleep."
+                    ],
+                    "diet": [
+                        "Ensure adequate magnesium and potassium intake for heart rhythm stability.",
+                        "High-antioxidant diet (berries, dark leafy greens) to support vascular health."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260104161748",
+            "date": "2026-01-04T16:17:48.791510",
+            "inputs": {
+                "age": 65,
+                "sex": 1,
+                "cp": 3,
+                "trestbps": 160,
+                "chol": 280,
+                "fbs": 1,
+                "restecg": 0,
+                "thalach": 110,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 2,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 1,
+                "risk_level": "High",
+                "confidence": 62.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "High clinical correlation with heart disease detected.",
+                    "recommendations": [
+                        "Incorporate zone-2 aerobic training to improve cardiac efficiency.",
+                        "Significant markers in major vessels require a specialized cardiology consult.",
+                        "Maintain a consistent 7-9 hours of restorative sleep."
+                    ],
+                    "diet": [
+                        "Ensure adequate magnesium and potassium intake for heart rhythm stability.",
+                        "High-antioxidant diet (berries, dark leafy greens) to support vascular health."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260104162306",
+            "date": "2026-01-04T16:23:06.060264",
+            "inputs": {
+                "age": 65,
+                "sex": 1,
+                "cp": 3,
+                "trestbps": 160,
+                "chol": 280,
+                "fbs": 1,
+                "restecg": 0,
+                "thalach": 110,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 2,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 1,
+                "risk_level": "High",
+                "confidence": 62.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "High clinical correlation with heart disease detected.",
+                    "recommendations": [
+                        "Incorporate zone-2 aerobic training to improve cardiac efficiency.",
+                        "Significant markers in major vessels require a specialized cardiology consult.",
+                        "Maintain a consistent 7-9 hours of restorative sleep."
+                    ],
+                    "diet": [
+                        "Ensure adequate magnesium and potassium intake for heart rhythm stability.",
+                        "High-antioxidant diet (berries, dark leafy greens) to support vascular health."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260104162345",
+            "date": "2026-01-04T16:23:45.470124",
+            "inputs": {
+                "age": 65,
+                "sex": 1,
+                "cp": 3,
+                "trestbps": 160,
+                "chol": 280,
+                "fbs": 1,
+                "restecg": 0,
+                "thalach": 110,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 2,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 1,
+                "risk_level": "High",
+                "confidence": 62.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Urgent: High clinical correlation with cardiovascular pathology detected. Cardiology consult recommended.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260104204700",
+            "date": "2026-01-04T20:47:00.595533",
+            "inputs": {
+                "age": 23,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 150,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 92.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Observation: Low risk profile. Standard health maintenance protocol suggested.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260104213015",
+            "date": "2026-01-04T21:30:15.566364",
+            "inputs": {
+                "age": 23,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 150,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 92.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Observation: Low risk profile. Standard health maintenance protocol suggested.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260105212030",
+            "date": "2026-01-05T21:20:30.023191",
+            "inputs": {
+                "age": 20,
+                "sex": 0,
+                "cp": 3,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 150,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 94.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Observation: Low risk profile. Standard health maintenance protocol suggested.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260107171913",
+            "date": "2026-01-07T17:19:13.398569",
+            "inputs": {
+                "age": 21,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 150,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 2,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 88.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Observation: Low risk profile. Standard health maintenance protocol suggested.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260115185256",
+            "date": "2026-01-15T18:52:56.852185",
+            "inputs": {
+                "age": 23,
+                "sex": 1,
+                "cp": 2,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 150,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 92.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Observation: Low risk profile. Standard health maintenance protocol suggested.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260118104043",
+            "date": "2026-01-18T10:40:43.532083",
+            "inputs": {
+                "age": 21,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 1,
+                "thalach": 150,
+                "exang": 0,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 0,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 92.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Observation: Low risk profile. Standard health maintenance protocol suggested.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260118105722",
+            "date": "2026-01-18T10:57:22.579323",
+            "inputs": {
+                "age": 0,
+                "sex": 0,
+                "cp": 0,
+                "trestbps": 0,
+                "chol": 0,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 0,
+                "exang": 0,
+                "oldpeak": 0.0,
+                "slope": 0,
+                "ca": 0,
+                "thal": 0
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 78.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Observation: Low risk profile. Standard health maintenance protocol suggested.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260118110745",
+            "date": "2026-01-18T11:07:45.245939",
+            "inputs": {
+                "age": 99,
+                "sex": 0,
+                "cp": 3,
+                "trestbps": 200,
+                "chol": 250,
+                "fbs": 1,
+                "restecg": 2,
+                "thalach": 300,
+                "exang": 1,
+                "oldpeak": 1.0,
+                "slope": 2,
+                "ca": 1,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Medium",
+                "confidence": 56.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Alert: Moderate risk markers identified. Preventative clinical intervention warranted.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260118111219",
+            "date": "2026-01-18T11:12:19.017559",
+            "inputs": {
+                "age": 99,
+                "sex": 0,
+                "cp": 3,
+                "trestbps": 200,
+                "chol": 250,
+                "fbs": 1,
+                "restecg": 2,
+                "thalach": 300,
+                "exang": 1,
+                "oldpeak": 1.0,
+                "slope": 2,
+                "ca": 1,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Medium",
+                "confidence": 56.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Alert: Moderate risk markers identified. Preventative clinical intervention warranted.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260118111222",
+            "date": "2026-01-18T11:12:22.013332",
+            "inputs": {
+                "age": 99,
+                "sex": 0,
+                "cp": 3,
+                "trestbps": 200,
+                "chol": 250,
+                "fbs": 1,
+                "restecg": 2,
+                "thalach": 300,
+                "exang": 1,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 1,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Medium",
+                "confidence": 62.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Alert: Moderate risk markers identified. Preventative clinical intervention warranted.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260118111222",
+            "date": "2026-01-18T11:12:22.729848",
+            "inputs": {
+                "age": 99,
+                "sex": 0,
+                "cp": 3,
+                "trestbps": 200,
+                "chol": 250,
+                "fbs": 1,
+                "restecg": 2,
+                "thalach": 300,
+                "exang": 1,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 1,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Medium",
+                "confidence": 62.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Alert: Moderate risk markers identified. Preventative clinical intervention warranted.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260118111322",
+            "date": "2026-01-18T11:13:22.278908",
+            "inputs": {
+                "age": 99,
+                "sex": 0,
+                "cp": 3,
+                "trestbps": 200,
+                "chol": 250,
+                "fbs": 1,
+                "restecg": 2,
+                "thalach": 300,
+                "exang": 1,
+                "oldpeak": 1.0,
+                "slope": 1,
+                "ca": 1,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Medium",
+                "confidence": 62.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Alert: Moderate risk markers identified. Preventative clinical intervention warranted.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ]
+                }
+            }
+        },
+        {
+            "id": "20260402104454",
+            "date": "2026-04-02T10:44:54.804342",
+            "inputs": {
+                "age": 20,
+                "sex": 0,
+                "cp": 1,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 1,
+                "thalach": 150,
+                "exang": 0,
+                "oldpeak": 1.4,
+                "slope": 1,
+                "ca": 2,
+                "thal": 1
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 74.0,
+                "factors": {
+                    "Base Heart Rate": 12.9,
+                    "Vessels Count": 12.8,
+                    "Condition": 10.4
+                },
+                "analysis": {
+                    "message": "Observation: Low risk profile based on current physiological data. Maintain standard wellness protocols.",
+                    "clinical": [
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function.",
+                        "Fluoroscopy indicates major vessel involvement; ischemic evaluation required."
+                    ],
+                    "dietary": [
+                        "High-magnesium protocol (dark leafy greens, seeds) to support myocardial stability."
+                    ],
+                    "lifestyle": [
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ],
+                    "disclaimer": "NOT FOR DIAGNOSTIC USE. This AI-generated assessment is for educational guidance only and must be validated by a healthcare professional. Results are based on statistical correlation, not clinical diagnosis."
+                }
+            }
+        },
+        {
+            "id": "20260411160442",
+            "date": "2026-04-11T16:04:42.807758",
+            "inputs": {
+                "age": 32,
+                "sex": 0,
+                "cp": 1,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 1,
+                "restecg": 1,
+                "thalach": 130,
+                "exang": 0,
+                "oldpeak": 1.2,
+                "slope": 1,
+                "ca": 2,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 56.0,
+                "factors": {},
+                "analysis": {
+                    "message": "Observation: Low risk profile based on current physiological data. Maintain standard wellness protocols.",
+                    "clinical": [
+                        "Continue standard preventative cardiac screening (annual stress tests)."
+                    ],
+                    "dietary": [
+                        "Adopt Mediterranean-style dietary density: rich in Omega-3s and low-glycemic precursors."
+                    ],
+                    "lifestyle": [
+                        "Sustain 150 minutes of moderate-intensity zone-2 cardiovascular activity per week."
+                    ],
+                    "disclaimer": "NOT FOR DIAGNOSTIC USE. This AI-generated assessment is for educational guidance only and must be validated by a healthcare professional. Results are based on statistical correlation, not clinical diagnosis."
+                }
+            }
+        },
+        {
+            "id": "20260411163026",
+            "date": "2026-04-11T16:30:26.201025",
+            "inputs": {
+                "age": 22,
+                "sex": 0,
+                "cp": 1,
+                "trestbps": 120,
+                "chol": 230,
+                "fbs": 0,
+                "restecg": 1,
+                "thalach": 140,
+                "exang": 0,
+                "oldpeak": 1.3,
+                "slope": 1,
+                "ca": 2,
+                "thal": 1
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 50.0,
+                "factors": {},
+                "analysis": {
+                    "message": "Observation: Low risk profile based on current physiological data. Maintain standard wellness protocols.",
+                    "clinical": [
+                        "Continue standard preventative cardiac screening (annual stress tests)."
+                    ],
+                    "dietary": [
+                        "Adopt Mediterranean-style dietary density: rich in Omega-3s and low-glycemic precursors."
+                    ],
+                    "lifestyle": [
+                        "Sustain 150 minutes of moderate-intensity zone-2 cardiovascular activity per week."
+                    ],
+                    "disclaimer": "NOT FOR DIAGNOSTIC USE. This AI-generated assessment is for educational guidance only and must be validated by a healthcare professional. Results are based on statistical correlation, not clinical diagnosis."
+                }
+            }
+        },
+        {
+            "id": "20260412114418",
+            "date": "2026-04-12T11:44:18.840570",
+            "inputs": {
+                "age": 23,
+                "sex": 0,
+                "cp": 3,
+                "trestbps": 120,
+                "chol": 200,
+                "fbs": 0,
+                "restecg": 1,
+                "thalach": 140,
+                "exang": 0,
+                "oldpeak": 1.4,
+                "slope": 2,
+                "ca": 3,
+                "thal": 1
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Low",
+                "confidence": 59.0,
+                "factors": {
+                    "ST Peak": 14.7,
+                    "Blood Pressure": 14.5,
+                    "Base Heart Rate": 14.1
+                },
+                "analysis": {
+                    "message": "Observation: Low risk profile based on current physiological data. Maintain standard wellness protocols.",
+                    "clinical": [
+                        "ST segment depression suggests potential exercise-induced ischemia.",
+                        "Bilateral blood pressure monitoring required. Target threshold: <120/80 mmHg.",
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function."
+                    ],
+                    "dietary": [
+                        "DASH diet implementation: restrictive sodium (<1.5g) and high potassium intake."
+                    ],
+                    "lifestyle": [
+                        "Stress-reduction protocols: 20min daily mindfulness or controlled breathing.",
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ],
+                    "disclaimer": "NOT FOR DIAGNOSTIC USE. This AI-generated assessment is for educational guidance only and must be validated by a healthcare professional. Results are based on statistical correlation, not clinical diagnosis."
+                }
+            }
+        },
+        {
+            "id": "20260413024436",
+            "date": "2026-04-13T02:44:36.417069",
+            "inputs": {
+                "age": 67,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 165,
+                "chol": 290,
+                "fbs": 1,
+                "restecg": 2,
+                "thalach": 105,
+                "exang": 1,
+                "oldpeak": 3.2,
+                "slope": 2,
+                "ca": 3,
+                "thal": 3
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "High",
+                "confidence": 50.0,
+                "factors": {
+                    "ST Peak": 14.7,
+                    "Blood Pressure": 14.5,
+                    "Base Heart Rate": 14.1
+                },
+                "analysis": {
+                    "message": "Urgent: High clinical correlation with cardiovascular pathology detected. Immediate consultation with a licensed cardiologist is recommended.",
+                    "clinical": [
+                        "ST segment depression suggests potential exercise-induced ischemia.",
+                        "Bilateral blood pressure monitoring required. Target threshold: <120/80 mmHg.",
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function."
+                    ],
+                    "dietary": [
+                        "DASH diet implementation: restrictive sodium (<1.5g) and high potassium intake."
+                    ],
+                    "lifestyle": [
+                        "Stress-reduction protocols: 20min daily mindfulness or controlled breathing.",
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ],
+                    "disclaimer": "NOT FOR DIAGNOSTIC USE. This AI-generated assessment is for educational guidance only and must be validated by a healthcare professional. Results are based on statistical correlation, not clinical diagnosis."
+                }
+            }
+        },
+        {
+            "id": "20260413024556",
+            "date": "2026-04-13T02:45:56.744574",
+            "inputs": {
+                "age": 52,
+                "sex": 1,
+                "cp": 1,
+                "trestbps": 145,
+                "chol": 245,
+                "fbs": 0,
+                "restecg": 1,
+                "thalach": 135,
+                "exang": 0,
+                "oldpeak": 1.2,
+                "slope": 1,
+                "ca": 1,
+                "thal": 2
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Medium",
+                "confidence": 65.0,
+                "factors": {
+                    "ST Peak": 14.7,
+                    "Blood Pressure": 14.5,
+                    "Base Heart Rate": 14.1
+                },
+                "analysis": {
+                    "message": "Alert: Moderate risk markers identified. Preventative longitudinal clinical intervention is suggested.",
+                    "clinical": [
+                        "ST segment depression suggests potential exercise-induced ischemia.",
+                        "Bilateral blood pressure monitoring required. Target threshold: <120/80 mmHg.",
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function."
+                    ],
+                    "dietary": [
+                        "DASH diet implementation: restrictive sodium (<1.5g) and high potassium intake."
+                    ],
+                    "lifestyle": [
+                        "Stress-reduction protocols: 20min daily mindfulness or controlled breathing.",
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ],
+                    "disclaimer": "NOT FOR DIAGNOSTIC USE. This AI-generated assessment is for educational guidance only and must be validated by a healthcare professional. Results are based on statistical correlation, not clinical diagnosis."
+                }
+            }
+        },
+        {
+            "id": "20260413024732",
+            "date": "2026-04-13T02:47:32.350675",
+            "inputs": {
+                "age": 28,
+                "sex": 0,
+                "cp": 3,
+                "trestbps": 115,
+                "chol": 185,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 178,
+                "exang": 0,
+                "oldpeak": 0.0,
+                "slope": 0,
+                "ca": 0,
+                "thal": 1
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "Medium",
+                "confidence": 50.0,
+                "factors": {
+                    "ST Peak": 14.7,
+                    "Blood Pressure": 14.5,
+                    "Base Heart Rate": 14.1
+                },
+                "analysis": {
+                    "message": "Alert: Moderate risk markers identified. Preventative longitudinal clinical intervention is suggested.",
+                    "clinical": [
+                        "ST segment depression suggests potential exercise-induced ischemia.",
+                        "Bilateral blood pressure monitoring required. Target threshold: <120/80 mmHg.",
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function."
+                    ],
+                    "dietary": [
+                        "DASH diet implementation: restrictive sodium (<1.5g) and high potassium intake."
+                    ],
+                    "lifestyle": [
+                        "Stress-reduction protocols: 20min daily mindfulness or controlled breathing.",
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ],
+                    "disclaimer": "NOT FOR DIAGNOSTIC USE. This AI-generated assessment is for educational guidance only and must be validated by a healthcare professional. Results are based on statistical correlation, not clinical diagnosis."
+                }
+            }
+        },
+        {
+            "id": "20260413025500",
+            "date": "2026-04-13T02:55:00.787470",
+            "inputs": {
+                "age": 67,
+                "sex": 1,
+                "cp": 0,
+                "trestbps": 165,
+                "chol": 290,
+                "fbs": 1,
+                "restecg": 2,
+                "thalach": 105,
+                "exang": 1,
+                "oldpeak": 3.2,
+                "slope": 2,
+                "ca": 3,
+                "thal": 3
+            },
+            "results": {
+                "prediction": 0,
+                "risk_level": "High",
+                "confidence": 50.0,
+                "factors": {
+                    "ST Peak": 14.7,
+                    "Blood Pressure": 14.5,
+                    "Base Heart Rate": 14.1
+                },
+                "analysis": {
+                    "message": "Urgent: High clinical correlation with cardiovascular pathology detected. Immediate consultation with a licensed cardiologist is recommended.",
+                    "clinical": [
+                        "ST segment depression suggests potential exercise-induced ischemia.",
+                        "Bilateral blood pressure monitoring required. Target threshold: <120/80 mmHg.",
+                        "Heart rate variability (HRV) analysis recommended to assess autonomic function."
+                    ],
+                    "dietary": [
+                        "DASH diet implementation: restrictive sodium (<1.5g) and high potassium intake."
+                    ],
+                    "lifestyle": [
+                        "Stress-reduction protocols: 20min daily mindfulness or controlled breathing.",
+                        "Zone 2 aerobic conditioning: 150min/week at 60-70% of peak heart rate."
+                    ],
+                    "disclaimer": "NOT FOR DIAGNOSTIC USE. This AI-generated assessment is for educational guidance only and must be validated by a healthcare professional. Results are based on statistical correlation, not clinical diagnosis."
+                }
+            }
+        }
+    ]
+}
